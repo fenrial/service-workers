@@ -1,0 +1,22 @@
+{
+	"name": "service-workers",
+	"version": "1.0.0",
+	"main": "index.js",
+	"license": "MIT",
+	"scripts": {
+		"dev": "parcel index.html --open",
+		"build": "parcel build index.html"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.7.4",
+		"parcel-bundler": "^1.12.4"
+	},
+	"dependencies": {
+		"babel-polyfill": "^6.26.0",
+		"body-parser": "^1.19.0",
+		"cors": "^2.8.5",
+		"express": "^4.17.1",
+		"transform-runtime": "^0.0.0",
+		"web-push": "^3.4.2"
+	}
+}
